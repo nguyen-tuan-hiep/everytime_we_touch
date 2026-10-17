@@ -57,11 +57,11 @@ h1 { font-size: 16px; font-weight: 600; letter-spacing: -.02em; margin: 0 0 5px;
 .lyrics-scroll { height: 100%; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; mask-image: linear-gradient(transparent, #000 14%, #000 82%, transparent); }
 .lyrics-scroll::-webkit-scrollbar { display: none; }
 .lyrics-inner { width: 82%; margin: auto; padding: 24vh 0 30vh; }
-.lyric { display: block; text-align: left; width: 100%; font-size: clamp(28px, 3.6vw, 48px); font-weight: 650; line-height: 1.35; letter-spacing: -.035em; color: var(--text); opacity: .36; padding: 18px 0; transition: opacity .3s, transform .3s; text-shadow: 0 2px 18px #0003; }
+.lyric { display: block; text-align: left; width: 100%; font-size: clamp(28px, 3.6vw, 40px); font-weight: 650; line-height: 1.35; letter-spacing: -.035em; color: var(--text); opacity: .36; padding: 18px 0; transition: opacity .3s, transform .3s; text-shadow: 0 2px 18px #0003; }
 .lyric.near { opacity: .62; }
 .lyric.active { opacity: 1; text-shadow: 0 2px 24px #0005; }
 .lyric:hover, .lyric:focus-visible { opacity: 1; transform: translateX(5px); }
-.section-label { display: block; height: 18px; font-size: 11px; font-weight: 500; letter-spacing: .02em; margin-bottom: 6px; color: var(--muted); }
+.section-label { display: block; height: 18px; font-size: 15px; font-weight: 500; letter-spacing: .02em; margin-bottom: 6px; color: var(--muted); }
 .follow-button { position: absolute; bottom: 12px; left: 50%; translate: -50% 0; background: #253b32e6; backdrop-filter: blur(16px); border: 1px solid var(--border); border-radius: 24px; padding: 0 20px; font-size: 13px; white-space: nowrap; box-shadow: 0 5px 30px #0003; }
 
 .player-controls { flex-shrink: 0; width: calc(100% - 48px); margin: 0 auto 24px; padding: 8px 28px 18px; border: 1px solid var(--border); border-radius: 24px; background: #ffffff0d; box-shadow: inset 0 1px 0 #ffffff12, 0 8px 32px #0002; }
@@ -97,7 +97,7 @@ input[type=range]::-moz-range-thumb { width: 12px; height: 12px; border: 0; bord
   .song-identity p { font-size: 12px; }
   .lyrics-badge { padding: 8px 10px; font-size: 11px; }
   .lyrics-inner { width: 85%; padding: 20vh 0 25vh; }
-  .lyric { font-size: 32px; padding: 16px 0; }
+  .lyric { font-size: 30px; padding: 16px 0; }
   .shortcut-hint, .volume { display: none; }
   .control-row { display: flex; justify-content: center; }
   .player-controls { width: calc(100% - 24px); margin-bottom: 12px; padding: 4px 18px 16px; border-radius: 20px; }
