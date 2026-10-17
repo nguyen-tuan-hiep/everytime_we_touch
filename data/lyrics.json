@@ -1,0 +1,163 @@
+{
+  "title": "Every Time We Touch",
+  "artist": "Piano",
+  "audio": "/audio/music.wav",
+  "timingStatus": "synchronized",
+  "lyrics": [
+        {
+      "time": 0.5,
+      "text": "[Piano]",
+      "section": "Intro"
+    },
+    {
+      "time": 20.394,
+      "text": "I still hear your voice when you sleep next to me",
+      "section": "Verse 1"
+    },
+    {
+      "time": 29.389,
+      "text": "I still feel your touch in my dream (in my dream)",
+      "section": "Verse 1"
+    },
+    {
+      "time": 38.239,
+      "text": "Forgive me my weakness but I don't know why",
+      "section": "Verse 1"
+    },
+    {
+      "time": 47.293,
+      "text": "Without you it's hard to survive",
+      "section": "Verse 1"
+    },
+    {
+      "time": 56.019,
+      "text": "'Cause every time we touch, I get this feeling",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 60.6,
+      "text": "And every time we kiss, I swear I could fly",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 65.189,
+      "text": "Can't you feel my heart beat fast?",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 68.677,
+      "text": "I want this to last. Need you by my side",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 74.699,
+      "text": "'Cause every time we touch, I feel the static",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 79.421,
+      "text": "And every time we kiss, I reach for the sky",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 83.688,
+      "text": "Can't you hear my heart beat so?",
+      "section": "Chorus 1"
+    },
+    {
+      "time": 87.365,
+      "text": "I can't let you go. Want you in my life",
+      "section": "Chorus 1"
+    },
+        {
+      "time": 93,
+      "text": "[Piano]",
+      "section": "Dạo"
+    },
+    {
+      "time": 103.266,
+      "text": "Your arms are my castle. Your heart is my sky",
+      "section": "Verse 2"
+    },
+    {
+      "time": 112.514,
+      "text": "They wipe away tears that I cry (that I cry)",
+      "section": "Verse 2"
+    },
+    {
+      "time": 119.755,
+      "text": "The good and the bad times",
+      "section": "Verse 2"
+    },
+    {
+      "time": 124.494,
+      "text": "We've been through them all",
+      "section": "Verse 2"
+    },
+    {
+      "time": 129.593,
+      "text": "You make me rise when I fall",
+      "section": "Verse 2"
+    },
+    {
+      "time": 139.455,
+      "text": "'Cause every time we touch, I get this feeling",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 144.176,
+      "text": "And every time we kiss, I swear I could fly",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 148.748,
+      "text": "Can't you feel my heart beat fast?",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 152.13,
+      "text": "I want this to last. Need you by my side",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 157.871,
+      "text": "'Cause every time we touch, I feel the static",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 162.608,
+      "text": "And every time we kiss, I reach for the sky",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 167.261,
+      "text": "Can't you hear my heart beat so?",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 170.368,
+      "text": "I can't let you go. Want you in my life",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 176.372,
+      "text": "'Cause every time we touch, I get this feeling",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 180.89,
+      "text": "And every time we kiss, I swear I could fly",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 185.672,
+      "text": "Can't you feel my heart beat fast?",
+      "section": "Chorus 2 → Ending"
+    },
+    {
+      "time": 189.136,
+      "text": "I want this to last. Need you by my side",
+      "section": "Chorus 2 → Ending"
+    }
+  ]
+}
