@@ -5,12 +5,14 @@ import initialSong from '@/data/lyrics.json';
 import type { SongData } from '@/types/lyrics';
 import { getActiveLyricIndex } from '@/lib/lyrics';
 import { useAudioPlayer } from '@/hooks/useAudioPlayer';
+import { usePlayerKeyboard } from '@/hooks/usePlayerKeyboard';
 import { LyricsView } from './LyricsView';
 import { PlayerControls } from './PlayerControls';
 export function MusicPlayer() {
   const song: SongData = initialSong;
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const player = useAudioPlayer();
+  usePlayerKeyboard(player);
   const appRef = useRef<HTMLElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [expanded, setExpanded] = useState(false);
@@ -46,28 +48,6 @@ export function MusicPlayer() {
     }
   };
   const fullscreenActive = isFullscreen || expanded;
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
-      const target = e.target;
-      if (!(target instanceof HTMLElement)) return;
-      // Space controls playback even while a clicked lyric retains focus.
-      // Enter keeps the lyric button's native click-to-seek behavior.
-      if (e.code === 'Space' && target.closest('button.lyric')) {
-        e.preventDefault();
-        if (!e.repeat) player.togglePlay();
-        return;
-      }
-      if (target.closest('input,textarea,button,a,[contenteditable]')) return;
-      if (['Space', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(e.code)) e.preventDefault();
-      if (e.code === 'Space' && !e.repeat) player.togglePlay();
-      if (e.code === 'ArrowLeft') player.skipBackward(5);
-      if (e.code === 'ArrowRight') player.skipForward(5);
-      if (e.code === 'ArrowUp') player.setVolume(player.volume + .05);
-      if (e.code === 'ArrowDown') player.setVolume(player.volume - .05);
-    };
-    window.addEventListener('keydown', handler); return () => window.removeEventListener('keydown', handler);
-  }, [player]);
   return (
     <main
       ref={appRef}

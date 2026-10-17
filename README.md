@@ -15,7 +15,7 @@ Open http://localhost:3000. Production: `npm run build`, then `npm start`.
 
 Lyrics and finalized timestamps come directly from `data/lyrics.json`. The synchronization editor has been removed. Audio is served from `public/audio/music.wav`, and the background from `public/images/background.jpg` (copied from `data/background.jpg`). Browser drafts no longer override the bundled timing.
 
-Space plays/pauses, left/right seek 5 seconds, and up/down adjust volume. Inputs and buttons retain native keyboard behavior. Clicking lyrics seeks without changing playback state. Manual browsing pauses lyric following for 3 seconds; Return to current line resumes immediately.
+Space plays/pauses, left/right seek 10 seconds, and up/down adjust volume. All player shortcuts work after clicking any button or dragging a slider. When a slider is reached with Tab, arrow keys adjust that slider; Space still plays/pauses. Enter activates the focused button. Text fields and modified shortcuts retain native keyboard behavior. Clicking lyrics seeks without changing playback state. Manual browsing pauses lyric following for 3 seconds; Return to current line resumes immediately.
 
 ## Checks
 
